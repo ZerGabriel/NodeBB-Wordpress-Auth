@@ -1,2 +1,2 @@
 # NodeBB-Wordpress-Auth
-A NodeBB plugin to connect with wordpress auth system. 
+NodeBB & wordpress plugins for integreted login. 
