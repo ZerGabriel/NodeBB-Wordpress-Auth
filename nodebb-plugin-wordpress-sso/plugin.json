@@ -1,0 +1,11 @@
+{
+	"id": "nodebb-plugin-wordpress-sso",
+	"name": "NodeBB Wordpress SSO",
+	"description": "NodeBB Plugin that allows users to login/register via wordpress.",
+	"url": "https://github.com/beingmohit/NodeBB-Wordpress-Auth",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "filter:user.delete", "method": "deleteUserData" },
+		{ "hook": "filter:auth.init", "method": "getStrategy" }
+	]
+}
