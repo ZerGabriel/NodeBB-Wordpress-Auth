@@ -1,6 +1,5 @@
 module.exports = 
 {
-    type: 'oauth2',	
     name: 'wordpress',	
     wordpress_url : 'http://example.com/',
     oauth2: {
@@ -12,6 +11,7 @@ module.exports =
     userRoute: 'http://example.com/oauth/me',
     host: 'http://example.com',
     port: 80,
-    userRoute_path: '/oauth/me/?access_token='
+    userRoute_path: '/oauth/me/?access_token=',
+    nodebb_url: 'http://forum.example.com/'
 };
 
